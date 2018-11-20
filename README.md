@@ -1,1 +1,17 @@
-# hcl2json_wasm
+# hcl2json WebAssembly
+
+```bash
+$ cat foo.tf | node main.js
+
+{
+  "variable": [
+    {
+      "name": [
+        {
+          "description": "yeah"
+        }
+      ]
+    }
+  ]
+}
+```
