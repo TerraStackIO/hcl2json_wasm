@@ -4,7 +4,7 @@
   "private": false,
   "description": "hcl2json via WebAssembly",
   "bin": {
-    "hcl2json": "./main.js"
+    "hcl2json": "./hcl2json"
   },
   "main": "main.js",
   "files": [
