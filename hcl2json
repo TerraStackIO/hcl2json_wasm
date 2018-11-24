@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
 const { Wasm } = require("./wasm_exec.js");
+const wasmPath = require.resolve("./main.wasm");
 
-Wasm("./main.wasm");
+Wasm(wasmPath);

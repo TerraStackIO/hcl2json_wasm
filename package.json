@@ -1,6 +1,6 @@
 {
   "name": "@terrastack/hcl2json-wasm",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": false,
   "description": "hcl2json via WebAssembly",
   "bin": {
@@ -10,7 +10,8 @@
   "files": [
     "main.js",
     "main.wasm",
-    "wasm_exec.js"
+    "wasm_exec.js",
+    "hcl2json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
