@@ -1,7 +1,15 @@
 # hcl2json WebAssembly
 
+## Install
+
 ```bash
-$ cat foo.tf | node main.js
+$ npm install -g @terrastack/hcl2json-wasm
+```
+
+## Usage
+
+```bash
+$ cat foo.tf | hcl2json
 
 {
   "variable": [
@@ -15,3 +23,7 @@ $ cat foo.tf | node main.js
   ]
 }
 ```
+
+## Use it programmatically
+
+Not yet implemented
